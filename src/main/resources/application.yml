@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/votes?useSSL=false
+    password: root
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: validate
